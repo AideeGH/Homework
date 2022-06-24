@@ -23,13 +23,12 @@
 }
 .blackshadows {
     background-color: #c9b6be;
-    min-height: 100px;
 }
 .thistle {
     background-color: #d1becf;
 }
 .flexrow {
-    flex-basis: calc(100% / 3 - 4pc);
+    flex-basis: calc(100% / 3 - 8px);
     margin: 2px;
 }
 .border {
@@ -40,8 +39,31 @@
 }
 .black {
     background-color: pink;
+
 }
 .white {
     background-color: white;
+
+}
+.height100 {
     min-height: 100px;
+}
+.height50 {
+    min-height: 50px;
+}
+.height25 {
+    min-height: 25px;
+}
+.column2 {
+    flex-basis: calc(100% / 2 - 8px);
+    margin: 2px;
+}
+.flexcolumn {
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 75%;
+    flex-grow: 1;
+}
+.width25 {
+    min-width: 150px;
 }
