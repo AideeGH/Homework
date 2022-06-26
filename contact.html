@@ -8,7 +8,11 @@
     <link rel="stylesheet" href="style.css">
 
 </head>
-<nav class="black grow height50"></nav>
+<ul>
+    <li><a href="./index.html">Link 1</a></li>
+    <li><a href="./for-sale.html">Link 2</a></li>
+    <li><a href="./contact.html">Link 3</a></li>
+  </ul>
 <body>
     <div class="battleshipgrey">
         <!-- <div class="border padding">Name:</div>
@@ -36,9 +40,31 @@
 
               <label for="Comment">Comment:</label>
               <textarea class="comment" name="Comment" id="" cols="30" rows="10">Comment</textarea>
+              <div class="radio grow">
+                <label>
+                    <input type="radio" name="editList" value="always"/>Radio 1
+                </label>
+                <label>
+                    <input type="radio" name="editList" value="never"/>Radio 2
+                </label>
+                <label>
+                    <input type="radio" name="editList" value="costChange"/>Radio 3
+                </label>    
+            </div> 
             
               <input type="submit" value="Submit">
-            </form>          
+            </form> 
+            <!-- <div class="radio grow">
+                <label>
+                    <input type="radio" name="editList" value="always"/>Always
+                </label>
+                <label>
+                    <input type="radio" name="editList" value="never"/>Never
+                </label>
+                <label>
+                    <input type="radio" name="editList" value="costChange"/>Cost Change
+                </label>    
+            </div>      -->
     </div>
 </body>
 <footer class="thistle height50"></footer>

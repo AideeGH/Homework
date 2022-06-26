@@ -109,3 +109,45 @@ input[type=text], select {
     font-size: 16px;
     resize: none;
   }
+  ul {
+    list-style-type: none;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+    background-color: pink;
+    text-align: center;
+  }
+  
+  li {
+    float: left;
+    display: inline-block;
+    width: 33%;
+  }
+  
+  li a {
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #ddd;
+  }
+  
+  li a.active {
+    color: white;
+    background-color: #04AA6D;
+  }
+  
+  .img {
+    max-height: 50px;
+
+  }
+  .radio {
+    display: flex;
+    justify-content: space-between;
+  }
