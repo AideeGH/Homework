@@ -171,10 +171,15 @@ input[type=text], select {
 :target {
     background-color: white;
 }
-
-.auto {
-    display: block;
-    overflow: auto;
-    block-size: fit-content;
-    
+.timesfont {
+    font-family: 'Times New Roman', Times, serif;
+}
+.lucidafont {
+    font-family: "lucida console", 'Courier New', Courier, monospace;
+}
+footer {
+    font-family: "Sofia", sans-serif;
+}
+nav {
+    font-family: "Sofia", sans-serif;
 }
